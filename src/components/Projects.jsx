@@ -1,5 +1,6 @@
 import { ExternalLink, Github } from "lucide-react";
 import { motion } from "framer-motion";
+import img from "../assets/protfoliyo.png";
 
 const projects = [
   {
@@ -8,7 +9,7 @@ const projects = [
     description:
       "A full-stack wedding studio website with booking system, admin dashboard, and Firebase integration.",
     tech: ["React", "Node.js", "MongoDB", "Tailwind"],
-    live: "#",
+    live: "https://weding-studio.vercel.app/",
     github: "https://github.com/riteshmoond?tab=repositories",
   },
   {
@@ -29,6 +30,15 @@ const projects = [
     live: "https://dhobivala.vercel.app",
     github: "https://github.com/riteshmoond?tab=repositories",
   },
+  {
+    image: img,
+    title: "myPortfolio Website",
+    description:
+      "A personal portfolio website to showcase projects, skills, and experience with a modern UI.",
+    tech: ["React", "Tailwind CSS", "Framer Motion"],
+    live: "https://riteshmoond.vercel.app",
+    github: "https://github.com/riteshmoond?tab=repositories",
+  }
 ];
 
 /* ================= Animations ================= */
