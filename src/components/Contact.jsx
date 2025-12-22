@@ -22,7 +22,7 @@ export default function Contact() {
           <div className="grid sm:grid-cols-2 gap-6">
             {/* Email */}
             <a
-              href="mailto:ritesh@email.com"
+              href="mailto:moondritesh41@gmail.com"
               className="flex items-center gap-4 p-4 rounded-xl bg-gray-800/60 hover:bg-gray-800 transition"
             >
               <Mail className="text-accent" />
