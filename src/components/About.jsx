@@ -48,7 +48,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-32 px-6 bg-gradient-to-br from-[#12002f] via-[#0b1c3d] to-[#020617]"
+      className="py-32 px-6 bg-gradient-to-br bg-gray-900"
     >
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
 
